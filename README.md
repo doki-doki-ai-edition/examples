@@ -6,6 +6,7 @@ Feel free to contribute better prompts for the characters.
 # Setup
 
 `pip install google-generativeai`
+
 `pip install openai`
 
 
