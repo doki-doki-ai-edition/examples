@@ -18,7 +18,7 @@ defaults = {
   'top_k': 40,
   'top_p': 0.95,
   'max_output_tokens': 250,
-  'stop_sequences': []
+  'stop_sequences': ['input:']
 }
 
 with open(THIS_PATH + "/characters.json") as f:

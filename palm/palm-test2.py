@@ -1,3 +1,5 @@
+# I don't suggest using this version since right now the results are very robotic but the setup is here as an example anyway
+
 import google.generativeai as palm
 import json
 import os

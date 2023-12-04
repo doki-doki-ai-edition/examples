@@ -5,6 +5,10 @@ Feel free to contribute better prompts for the characters.
 
 # Setup
 
+`pip install google-generativeai`
+`pip install openai`
+
+
 If you're using the APIs you need your own API key.
 
 - Create a `config.json` file setup in the main folder
