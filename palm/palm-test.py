@@ -21,8 +21,8 @@ defaults = {
   'stop_sequences': ['input:']
 }
 
-with open(THIS_PATH + "/characters.json") as f:
-    context = json.load(f)['yuri'] # Change to the name of doki you want to interact with
+with open(PATH + "/characters.json") as f:
+    context = json.load(f)['yuri_textbison001'] # Change to the name of doki you want to interact with
 
 system = context[0]
 chat_history = context

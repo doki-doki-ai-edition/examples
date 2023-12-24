@@ -9,7 +9,7 @@ PATH = os.path.dirname(THIS_PATH) # parent folder name
 with open(PATH + "/config.json") as f:
     config = json.load(f)
 
-with open(THIS_PATH + "/characters.json") as f:
+with open(PATH + "/characters.json") as f:
     characters = json.load(f)['sayori_gpt4'] # Change to the name of doki you want to interact with
 
 try:
