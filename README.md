@@ -18,25 +18,27 @@ If you're using the APIs you need your own API key.
 `config.json`
 ```json
 {
-    "palm_token": "your api key",
+    "gemini_token": "your api key",
     "gpt_token": "your api key"
 }
 ```
 
-## Get your PaLM token
+Note: You don't need to get both tokens if you're only going to use one.
 
-- Go to https://developers.generativeai.google/products/palm and click "Get your API key"
-<img src=".\assets\setup_imgs\palm\step1.png" alt="step 1">
+## Get your Gemini token
 
-- If you're signed into a google account you'll be taken to this page (If you're not signed in, simply sign in and you'll be taken here). Click Create API key.
-<img src=".\assets\setup_imgs\palm\step2.png" alt="step 2">
+- Go to https://ai.google.dev/pricing and click "Get API key"
+<img src=".\assets\setup_imgs\gemini\step1.png" alt="step 1">
+
+- If you're signed into a google account you'll be taken to this page https://makersuite.google.com/app/apikey (If you're not signed in, simply sign in and you'll be taken here). Click Create API key.
+<img src=".\assets\setup_imgs\gemini\step2.png" alt="step 2">
 
 - If you see this screen then the API might not be available in your region (or you're not signed in), check if it is here: https://developers.generativeai.google/available_regions
 
-<img src=".\assets\setup_imgs\palm\step.png" alt="missing access">
+<img src=".\assets\setup_imgs\gemini\step.png" alt="missing access">
 
 - Copy your API key (Do not expose this, if you believe it has been leaked you can generate a new one)
-<img src=".\assets\setup_imgs\palm\step3.png" alt="step 3">
+<img src=".\assets\setup_imgs\gemini\step3.png" alt="step 3">
 
 ## Get your GPT token
 

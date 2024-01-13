@@ -10,7 +10,7 @@ with open(PATH + "/config.json") as f:
     config = json.load(f)
 
 with open(PATH + "/characters.json") as f:
-    characters = json.load(f)['sayori_gpt4'] # Change to the name of doki you want to interact with
+    examples = json.load(f)['sayori_gpt4'] # Change to the name of doki you want to interact with
 
 try:
     with open(THIS_PATH + "/chat_history.json") as f:
@@ -18,7 +18,7 @@ try:
                             # (which means u have to delete the old 1 if u want to test a new doki)
 except FileNotFoundError:
     with open(THIS_PATH + "/chat_history.json", 'w') as f:
-        json.dump(characters, f, indent=2)
+        json.dump(examples, f, indent=2)
 
     with open(THIS_PATH + "/chat_history.json") as f:
         msgs = json.load(f)
